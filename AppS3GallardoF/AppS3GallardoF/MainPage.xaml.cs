@@ -19,7 +19,7 @@ namespace AppS3GallardoF
         {
             try
             {
-                //almacenando en varibales lo que usuario ingresa
+                //almacenando en varibales lo que usuario ingresa Ninguno
                 string usuario = txtUsuario.Text;
                 string clave = txtClave.Text;
                 //Permite abrir la ventana(ViewDos)
