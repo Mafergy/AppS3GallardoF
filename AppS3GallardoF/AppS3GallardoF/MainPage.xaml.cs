@@ -22,8 +22,9 @@ namespace AppS3GallardoF
                 //almacenando en varibales lo que usuario ingresa
                 string usuario = txtUsuario.Text;
                 string clave = txtClave.Text;
+
                 //Permite abrir la ventana(ViewDos)
-                await Navigation.PushAsync(new ViewDos(usuario, clave));
+                await Navigation.PushAsync(new vistaDos(usuario,clave));
             }
             catch(Exception ex)
             {
@@ -31,5 +32,7 @@ namespace AppS3GallardoF
             }
 
         }
+
+        
     }
 }

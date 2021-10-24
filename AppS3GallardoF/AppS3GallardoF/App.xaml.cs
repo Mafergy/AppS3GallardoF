@@ -9,6 +9,7 @@ namespace AppS3GallardoF
         public App()
         {
             InitializeComponent();
+            //Navegacion entre ventanas
 
             MainPage = new NavigationPage(new MainPage());
         }

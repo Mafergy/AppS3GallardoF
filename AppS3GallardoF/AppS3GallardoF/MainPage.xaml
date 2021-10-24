@@ -4,14 +4,13 @@
              x:Class="AppS3GallardoF.MainPage">
 
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="20" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Frame BackgroundColor="#F577C2" Padding="18" CornerRadius="0">
+            <Label Text="BIENVENIDO" HorizontalTextAlignment="Center" TextColor="#E7F4F1" FontSize="24"/>
         </Frame>
         <Entry x:Name="txtUsuario" Placeholder="Ingrese su usuario"/>
         <Entry x:Name="txtClave" Placeholder="Ingrese la clave" IsPassword="True"/>
 
-        <Button x:Name="btnAbrir" Text="Abrir ventadna dos" Clicked="btnAbrir_Clicked"/>
+        <Button x:Name="btnAbrir" Text="LOGIN" Clicked="btnAbrir_Clicked"/>
     </StackLayout>
 
 </ContentPage>
-<
